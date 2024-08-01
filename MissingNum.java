@@ -19,8 +19,8 @@ public class MissingNum {
     public static void main(String[] args)
     {
     	MissingNum m=new MissingNum();
-        int[] arr = { 1, 2, 3, 5, 4, 7};
-        int n = 7;
+        int[] arr = { 1, 2 , 4, 5};
+        int n = 5;
        int  result= m.MissNumber(n, arr);
         System.out.println("missing number is "+result);
     }
